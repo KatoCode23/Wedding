@@ -1,0 +1,41 @@
+body{
+background-color: grey;
+}
+.main-content{
+  padding: 50px;
+  background-image: url(1.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: solid black 5px;
+}
+
+header{
+text-align: center;
+color: white;
+font-size: 50px;
+}
+
+.paragraph-container{
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  border: solid red 5px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+p{
+  color: white;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+#maids{
+  color: white;
+  text-align: center;
+}
