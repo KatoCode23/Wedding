@@ -1,31 +1,56 @@
 body{
-background-color: grey;
+background-color: #554c44;
+text-align: center;
+padding: 0;
+margin: 0;
+cursor: pointer;
 }
+
 .main-content{
   padding: 50px;
   background-image: url(1.JPG);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+}
+
+.header-bar{
+  display: block;
+  background: transparent;
   width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  border: solid black 5px;
+  height: 75px;
+  position: relative;
+  text-align: center;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 40px;
+  line-height: 80px;
+  font-style: italic;
+  color: white;
 }
 
-header{
-text-align: center;
-color: white;
-font-size: 50px;
+a{
+  text-decoration: none;
 }
 
-.paragraph-container{
-  width: 500px;
-  height: 500px;
+.address-container{
+  width: 300px;
+  height: 300px;
   margin: 0 auto;
-  border: solid red 5px;
   overflow-x: hidden;
   overflow-y: scroll;
+  position: relative;
+  padding: 10px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-image: url(address.jpg);
 }
 
 p{
@@ -35,7 +60,26 @@ p{
   padding: 5px;
 }
 
-#maids{
+
+.fa-envelope{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  margin: 0 auto;
+}
+
+.email-inquiry{
   color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.footer-bar{
+  width: 100%;
+  display: block;
+  bottom: 0;
+  right: 0;
+  height: 50px;
   text-align: center;
+  position: relative;
 }
