@@ -1,26 +1,26 @@
 body{
-background-color: #554c44;
+background-color: white;
 text-align: center;
 padding: 0;
 margin: 0;
-cursor: pointer;
+color: black;
 }
 
 .main-content{
-  padding: 50px;
-  background-image: url(1.JPG);
+  padding: 20px;
+  background-image: url(4.JPG);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   margin: 0 auto;
   text-align: center;
-  width: 400px;
+  width: 85%;
   height: 400px;
 }
 
 .header-bar{
   display: block;
-  background: transparent;
+  background: white;
   width: 100%;
   height: 75px;
   position: relative;
@@ -31,47 +31,80 @@ cursor: pointer;
   font-size: 40px;
   line-height: 80px;
   font-style: italic;
-  color: white;
+  color: black;
+  font-family: 'Great Vibes', cursive;
+  margin: 0 auto;
 }
 
 a{
   text-decoration: none;
+  padding: 10px;
 }
 
 .address-container{
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 225px;
   margin: 0 auto;
-  overflow-x: hidden;
-  overflow-y: scroll;
   position: relative;
   padding: 10px;
   background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-color: transparent;
-  background-image: url(address.jpg);
+  font-family: 'Great Vibes', cursive;
+  color: black;
+  font-size: 23px;
+  top: 10px;
+}
+
+.shuttle-container{
+  width: 400px;
+  height: 150px;
+  margin: 0 auto;
+  position: relative;
+  padding: 10px;
+  background-position: center;
+  color: black;
+  font-size: 15px;
+  top: 10px;
+}
+
+.look-forward{
+  font-size: 20px;
+  font-family: 'Great Vibes', cursive;
+  padding: 5px;
+}
+
+.hashtag{
+  font-size: 20px;
+  padding: 5px;
 }
 
 p{
-  color: white;
+  color: black;
   max-width: 400px;
   margin: 0 auto;
   padding: 5px;
 }
 
 
-.fa-envelope{
+.fa-envelope, .fa-angle-double-down{
   display: block;
   padding: 10px;
   text-decoration: none;
   margin: 0 auto;
+  color: black;
 }
 
 .email-inquiry{
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 30px;
+  cursor: pointer;
+}
+
+.arrows{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  text-align: center;
 }
 
 .footer-bar{
@@ -82,4 +115,65 @@ p{
   height: 50px;
   text-align: center;
   position: relative;
+  padding: 10px;
+}
+
+.registry{
+  padding: 5px;
+  text-align: center;
+  color: black;
+  font-family: 'Great Vibes', cursive;
+  display: block;
+  font-size: 23px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.registry a{
+  color: #9a502a;
+  border: solid 2px #9a502a;
+  padding: 2px;
+  margin-bottom: 3px;
+}
+
+.email-inquiry:hover{
+  font-size: 33px;
+}
+
+@media  (min-width: 0px) and
+		(max-width: 768px) {
+.main-content{
+  height: 200px;
+}
+.header-bar{
+  height: 55px;
+  font-size: 30px;
+}
+.address-container{
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 19px;
+}
+.shuttle-container{
+  width: 200px;
+  height: 100px;
+  font-size: 13px;
+}
+.look-forward{
+  font-size: 18px;
+}
+.email-inquiry{
+  font-size: 20px;
+}
+.arrows{
+  font-size: 20px;
+}
+.registry{
+  font-size: 20px;
+}
+.hashtag{
+  font-size: 18px;
+}
 }
