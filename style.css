@@ -56,7 +56,19 @@ a{
 
 .shuttle-container{
   width: 400px;
-  height: 150px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 10px;
+  background-position: center;
+  color: black;
+  font-size: 15px;
+  top: 10px;
+}
+
+.train-container{
+  width: 400px;
+  height: 300px;
   margin: 0 auto;
   position: relative;
   padding: 10px;
@@ -158,7 +170,11 @@ p{
 }
 .shuttle-container{
   width: 200px;
-  height: 100px;
+  font-size: 13px;
+}
+.train-container{
+  width: 200px;
+  height: 370px;
   font-size: 13px;
 }
 .look-forward{
